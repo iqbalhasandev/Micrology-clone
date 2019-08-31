@@ -297,21 +297,25 @@ section {
 
 .services-box {}
 
-.services-card {}
+.services-card {cursor: pointer;}
 
+.services-card:hover h4{
+    color: #f1c40f;
+}
 .services-card-icon {}
 
 .services-card-icon img {
     width: 75px;
     margin: 1.5rem 0;
 }
-
+ 
 .services-card-title {}
 
 .services-card-title h4 {
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 1.2rem;
+    transition: all 0.2s ease-in-out;
 }
 
 .services-card-content p {}

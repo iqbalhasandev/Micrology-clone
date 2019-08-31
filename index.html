@@ -18,9 +18,13 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Font css -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300&display=swap" rel="stylesheet">
     <!-- fonawsome css -->
     <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <!-- owl.carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
@@ -58,7 +62,7 @@
         </section>
     </header>
     <!-- find-project Area Start -->
-    <section class="find-project">
+    <section class="find-project padding-8rem ">
         <div class="container">
             <div class="find-project-title">
                 <h4>Find inspiration for your project</h4>
@@ -143,7 +147,7 @@
         </div>
     </section>
     <!-- about Area Start -->
-    <section class="about">
+    <section class="about padding-8rem ">
         <div class="container">
             <div class="about-title text-center">
                 <h5 class="title">about us</h5>
@@ -214,7 +218,7 @@
         </div>
     </section>
     <!-- Services Area Start -->
-    <section class="services">
+    <section class="services padding-8rem ">
         <div class="container">
             <div class="services-title text-center">
                 <h5 class="title">Services</h5>
@@ -309,7 +313,7 @@
         </div>
     </section>
     <!-- example Area Start -->
-    <section class="example">
+    <section class="example padding-8rem ">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-5">
@@ -330,31 +334,98 @@
         </div>
     </section>
     <!-- OUR WORKS Area Start -->
-    <section class="our-work">
+    <section class="our-work padding-8rem ">
         <div class="container">
-            <div class="our-work-title">
-                <h4>OUR WORKS</h4>
-                <h2>Create a Beautifully Digital Market</h2>
+            <div class="our-work-title text-center">
+                <h4 class="title">OUR WORKS</h4>
+                <h2 class="sub-title">Create a Beautifully Digital Market</h2>
             </div>
 
-            <div class="our-work-slider">
+            <div class="our-work-slider owl-carousel owl-theme">
+                <!-- 1st -->
                 <div class="our-work-card">
                     <div class="our-work-card-img">
-                        <img src="" alt="">
+                        <img class="img-fluid" src="img/work-1.jpg" alt="">
                     </div>
                     <div class="our-work-card-content">
-                        <a href="">
+                        <a href="#">
                             <h3>Web Design Process</h3>
                         </a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quod ipsa, ad aspernatur.
                         </p>
                     </div>
-                    <div class="our-work-card-footer">
-                        <span class="price">$4.20</span>
-                        <span class="tag-line">
+                    <div class="our-work-card-footer clearfix">
+                        <span class="price float-left">$4.20</span>
+                        <span class="tag-line float-right">
                             <a href="#">
-                                <i></i>
-                                <h5>Web Design</h5>
+                                <i class="far fa-folder-open"></i>
+                                Web Design
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <!-- 2nd -->
+                <div class="our-work-card">
+                    <div class="our-work-card-img">
+                        <img class="img-fluid" src="img/work-1.jpg" alt="">
+                    </div>
+                    <div class="our-work-card-content">
+                        <a href="#">
+                            <h3>Web Design Process</h3>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quod ipsa, ad aspernatur.
+                        </p>
+                    </div>
+                    <div class="our-work-card-footer clearfix">
+                        <span class="price float-left">$4.20</span>
+                        <span class="tag-line float-right">
+                            <a href="#">
+                                <i class="far fa-folder-open"></i>
+                                Web Design
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <!-- 3rd -->
+                <div class="our-work-card">
+                    <div class="our-work-card-img">
+                        <img class="img-fluid" src="img/work-1.jpg" alt="">
+                    </div>
+                    <div class="our-work-card-content">
+                        <a href="#">
+                            <h3>Web Design Process</h3>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quod ipsa, ad aspernatur.
+                        </p>
+                    </div>
+                    <div class="our-work-card-footer clearfix">
+                        <span class="price float-left">$4.20</span>
+                        <span class="tag-line float-right">
+                            <a href="#">
+                                <i class="far fa-folder-open"></i>
+                                Web Design
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <!-- 4th -->
+                <div class="our-work-card">
+                    <div class="our-work-card-img">
+                        <img class="img-fluid" src="img/work-1.jpg" alt="">
+                    </div>
+                    <div class="our-work-card-content">
+                        <a href="#">
+                            <h3>Web Design Process</h3>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quod ipsa, ad aspernatur.
+                        </p>
+                    </div>
+                    <div class="our-work-card-footer clearfix">
+                        <span class="price float-left">$4.20</span>
+                        <span class="tag-line float-right">
+                            <a href="#">
+                                <i class="far fa-folder-open"></i>
+                                Web Design
                             </a>
                         </span>
                     </div>
@@ -363,22 +434,23 @@
         </div>
     </section>
     <!-- banner area Start -->
-    <section class="banner">
+    <section class="banner padding-8rem align-items-center">
+        <div class="overlay"></div>
         <div class="container">
-            <div class="banner-title">
+            <div class="banner-title text-center">
                 <h2>Watch the video & learn why Micrology ideal solution for you</h2>
                 <p>Who says customization has to be complicated? Choose from more than 250+ components that are
                     beautifully designed and
                     ready to use.</p>
-                <a class="play-btn" href="#">
-                    <i class="fa fa-play"></i>
-                    <h6>Micrology Offical Video on Youtube</h6>
+                <a class="play-btn clearfix" href="#">
+                    <i class="d-inline fa fa-play"></i>
+                    <h6 class="d-inline">Micrology Offical Video on Youtube</h6>
                 </a>
             </div>
         </div>
     </section>
     <!-- testimonial Start -->
-    <section class="testimonial">
+    <section class="testimonial padding-8rem ">
         <div class="container">
             <div class="testimonial-title text-center">
                 <h5> testimonials</h5>
@@ -397,7 +469,7 @@
 
         </div>
     </section>
-    <section>
+    <section class="padding-8rem ">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -420,7 +492,7 @@
     </section>
 
     <!-- big-banner -->
-    <section class="big-banner">
+    <section class="big-banner padding-8rem ">
         <div class="container">
             <div class="big-banner-title">
                 <h2>We Can Change Life With Together!</h2>
@@ -470,7 +542,7 @@
 
         </div>
     </section>
-    <section>
+    <section class="padding-8rem ">
         <div class="container text-center">
             <div class="hero-card">
                 <h1>daily web graphic design inspirations</h1>
@@ -483,7 +555,7 @@
         </div>
     </section>
     <!-- client Area Start -->
-    <section class="client">
+    <section class="client padding-8rem ">
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
@@ -497,7 +569,7 @@
 
 
     <!-- footer area Start -->
-    <footer class="footer">
+    <footer class="footer padding-8rem ">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -522,7 +594,7 @@
                     <div class="widget">
                         <div class="footer-nav">
                             <nav>
-                                <ul>
+                                <ul class="list-unstyled">
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">about</a></li>
                                     <li><a href="#">works</a></li>
@@ -541,8 +613,8 @@
                                         <h4>OUR OFFICE</h4>
                                     </div>
                                     <div class="address-dec">
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, debitis? Qui
-                                            eius tempora sint rem sunt enim molestias optio aliquam?</p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, debitis? Qui
+                                        eius tempora sint rem sunt enim molestias optio aliquam?
                                     </div>
                                 </div>
                                 <!-- 2nd colum -->
@@ -552,8 +624,8 @@
                                         <h4>OUR OFFICE</h4>
                                     </div>
                                     <div class="address-dec">
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, debitis? Qui
-                                            eius tempora sint rem sunt enim molestias optio aliquam?</p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, debitis? Qui
+                                        eius tempora sint rem sunt enim molestias optio aliquam?
                                     </div>
                                 </div>
                                 <!-- 3rd colum -->
@@ -563,8 +635,8 @@
                                         <h4>OUR OFFICE</h4>
                                     </div>
                                     <div class="address-dec">
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, debitis? Qui
-                                            eius tempora sint rem sunt enim molestias optio aliquam?</p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, debitis? Qui
+                                        eius tempora sint rem sunt enim molestias optio aliquam?
                                     </div>
                                 </div>
                             </div>
@@ -597,11 +669,14 @@
     <!--------------- javascript area ---------------------->
 
     <!-- jquery library -->
-    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <!-- bootstrap script-->
     <script src="js/bootstrap.min.js"></script>
+    <!-- owl.carousel -->
+    <script src="js/owl.carousel.min.js"></script>
     <!-- custom script -->
-    <script src="custom.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>

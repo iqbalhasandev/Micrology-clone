@@ -17,7 +17,7 @@ html, body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, span {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -26,10 +26,9 @@ p {
     font-size: 13px;
 }
 
-div, section {
+section {
     /* background: #fff; */
     overflow: hidden;
-    font-family: 'Poppins', sans-serif;
 }
 
 .title {
@@ -45,6 +44,42 @@ div, section {
     font-size: 3rem;
     font-weight: 100;
     margin: 2rem 0;
+}
+
+.padding-8rem {
+    padding: 8rem 0;
+}
+
+.owl-prev {}
+
+.owl-prev span, .owl-next span {
+    border-radius: 40px;
+    color: #dadee6;
+    background-color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #dadee6;
+    font-size: 2rem;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px 3px;
+    padding: 0;
+    width: 40px;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+.owl-prev span:hover, .owl-next span:hover {
+    background-color: #f1c40f;
+    color: #34495e;
+}
+
+.owl-theme .owl-nav [class*="owl-"], .owl-theme .owl-nav [class*="owl-"]:hover {
+    background: transparent;
+    outline: none;
 }
 
 /*==========================================================
@@ -207,9 +242,10 @@ div, section {
 .find-card-icon {}
 
 .find-card-icon i {
-    padding: 0 1.5rem 0 0;
+    padding: 0 10px;
     font-size: 3rem;
     color: #e74c3c;
+    width: 85px;
 }
 
 .find-card-body {}
@@ -227,7 +263,6 @@ div, section {
 
 .about {
     background: #ecf0f8;
-    padding: 8rem 0;
 }
 
 .about-title {}
@@ -236,6 +271,8 @@ div, section {
 
 .about-title h3 {
     /*! margin: 1rem 0 4rem; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
 }
 
 .about-box {}
@@ -428,7 +465,9 @@ div, section {
 
 /* our-work area start */
 
-.our-work {}
+.our-work {
+    background: #ecf0f8;
+}
 
 .our-work-title {}
 
@@ -438,13 +477,18 @@ div, section {
 
 .our-work-slider {}
 
-.our-work-card {}
+.our-work-card {
+    /* width: 350px; */
+    background: #fff;
+}
 
 .our-work-card-img {}
 
 .our-work-card-img img {}
 
-.our-work-card-content {}
+.our-work-card-content {
+    padding: 2rem;
+}
 
 .our-work-card-content a {}
 
@@ -452,29 +496,64 @@ div, section {
 
 .our-work-card-content p {}
 
-.our-work-card-footer {}
+.our-work-card-footer {
+    padding: 1rem;
+    border-top: 1px solid #e1dbdb;
+}
 
 .our-work-card-footer i {}
 
-.our-work-card-footer h5 {}
+.our-work-card-footer a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: 400;
+}
 
-.price {}
+.price {
+    background: #ecf0f8;
+    padding: 2px;
+    border-radius: 4px;
+    color: #b3b7bf;
+}
 
 .tag-line {}
 
 /* banner area start */
 
-.banner {}
+.banner {
+    background: url(../img/banner.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
 
-.banner-title {}
+.banner-title {
+    position: relative;
+    color: #fff;
+    width: 700px;
+    margin: auto;
+}
 
-.banner-title h2 {}
+.banner-title h2 {
+    line-height: 4rem;
+}
 
 .banner-title p {}
 
-.play-btn {}
+.play-btn {
+    color: #fff;
+    text-decoration: none;
+}
 
-.play-btn i {}
+.play-btn i {
+    background: #fff;
+    padding: 1rem;
+    width: 40px;
+    border-radius: 50%;
+    color: rgb(184, 182, 182);
+    margin-right: 10px;
+    font-size: 0.6rem;
+}
 
 .play-btn h6 {}
 
@@ -488,24 +567,70 @@ div, section {
 
 . {}
 
-. {}
+.footer {
+    background: #090c1e;
+    color: #fff;
+}
 
-. {}
+.widget {}
 
-. {}
+.widget a {}
 
-. {}
+.widget-img {}
 
-. {}
+.widget-img img {}
 
-. {}
+.widget-title {}
 
-. {}
+.widget-title h4 {}
 
-. {}
+.widget-about {
+    color: #bdc3c7;
+}
 
-. {}
+.footer-nav {}
 
-. {}
+.footer-nav nav {}
 
-. {}
+.footer-nav nav ul {}
+
+.footer-nav nav ul li {
+    display: inline;
+}
+
+.footer-nav nav ul li a {
+    font-size: 1.5rem;
+    line-height: 5;
+    padding: 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer-nav nav ul li a::after {
+    content: "/";
+    padding-left: 1rem;
+    color: #878181;
+}
+
+.widget-address {}
+
+.address-title {}
+
+.address-title i {}
+
+.address-title h4 {}
+
+.address-dec {}
+
+.footer-social {}
+
+.footer-social a {}
+
+.footer-social a i {}
+
+.footer-cradit {}
+
+.footer-cradit h4 {}
+
+.footer-cradit h4 a {}

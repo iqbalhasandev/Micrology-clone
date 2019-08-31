@@ -13,21 +13,23 @@ html, body {
     font-family: "sans-serif", Arial;
     font-size: 1rem;
     background-color: #fff;
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
+h1, h2, h3, h4, h5, h6, span {
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 13px;
 }
 
-section {
+div, section {
     /* background: #fff; */
     overflow: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
 .title {

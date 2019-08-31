@@ -30,6 +30,21 @@ section {
     overflow: hidden;
 }
 
+.title {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 100;
+    border-bottom: 3px solid #ebbc00;
+    display: inline;
+    padding: 0.18rem;
+}
+
+.sub-title {
+    font-size: 3rem;
+    font-weight: 100;
+    margin: 2rem 0;
+}
+
 /*==========================================================
                 Custom Css
 ===========================================================*/
@@ -212,31 +227,30 @@ section {
 
 .about-title {}
 
-.about-title h5 {
-    text-transform: uppercase;
-    font-size: 1.3rem;
-    font-weight: 600;
-    border-bottom: 3px solid #f1c40f;
-    display: inline;
-    padding: 3px;
-}
+.about-title h5 {}
 
 .about-title h3 {
-    margin: 1rem 0 4rem;
+    /*! margin: 1rem 0 4rem; */
 }
 
 .about-box {}
 
-.about-card {transition: 0.3s all linear;}
-.about-card:hover .about-card-title i{
+.about-card {
+    transition: 0.3s all linear;
+}
+
+.about-card:hover .about-card-title i {
     color: #f1c40f;
 }
-.about-card-img {min-height: 260px;}
+
+.about-card-img {
+    min-height: 260px;
+}
 
 .about-card-img img {
     border-radius: 5px 5px 0 0;
 }
- 
+
 .about-card-title {
     padding-top: 2rem;
 }
@@ -258,6 +272,183 @@ section {
     color: #989d9d;
 }
 
-.about-card-content a {color: #f1c40f;text-decoration: none;transition: 0.5s all linear;}
+.about-card-content a {
+    color: #f1c40f;
+    text-decoration: none;
+    transition: 0.5s all linear;
+}
 
-.about-card-content a:hover {color: #2c3e50;}
+.about-card-content a:hover {
+    color: #2c3e50;
+}
+
+/* about area start */
+
+.services {
+    padding: 8rem 0;
+    background: #f6fdff;
+}
+ 
+.services-title {}
+
+.services-title h5 {}
+
+.services-title h3 {}
+
+.services-box {}
+
+.services-card {}
+
+.services-card-icon {}
+
+.services-card-icon img {
+    width: 75px;
+    margin: 1.5rem 0;
+}
+
+.services-card-title {}
+
+.services-card-title h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.services-card-content p {}
+
+.services-card-content ul {
+    list-style: none;
+    font-weight: 400;
+    padding: 0;
+    margin: 1.9rem 0;
+}  
+
+.services-card-content ul li {}
+
+.services-card-button {}
+
+.services-card-button a i {
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    display: none;
+}
+
+.services-card-button a {
+    background: #090c1e;
+    padding: 0.6rem 3rem;
+    border-radius: 30px;
+    color: #ffff;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.services-card-button a:hover i {display: inline-block;color: #fff;}
+
+.services-card-button a:hover {
+    padding: 0.6rem 3.5rem;
+    color: #fff;
+    background: #f1c40f;
+}
+
+/* example area start */
+
+.example {}
+
+.example-img img {}
+
+.example-img {}
+
+.example-title {}
+
+.example-title h3 {}
+
+.example-title p {}
+
+.example-title a {}
+
+.example-title a {}
+
+/* our-work area start */
+
+.our-work {}
+
+.our-work-title {}
+
+.our-work-title h4 {}
+
+.our-work-title h2 {}
+
+.our-work-slider {}
+
+.our-work-card {}
+
+.our-work-card-img {}
+
+.our-work-card-img img {}
+
+.our-work-card-content {}
+
+.our-work-card-content a {}
+
+.our-work-card-content a h3 {}
+
+.our-work-card-content p {}
+
+.our-work-card-footer {}
+
+.our-work-card-footer i {}
+
+.our-work-card-footer h5 {}
+
+.price {}
+
+.tag-line {}
+
+/* banner area start */
+
+.banner {}
+
+.banner-title {}
+
+.banner-title h2 {}
+
+.banner-title p {}
+
+.play-btn {}
+
+.play-btn i {}
+
+.play-btn h6 {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}

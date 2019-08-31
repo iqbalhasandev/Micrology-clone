@@ -102,6 +102,7 @@ section {
     padding: 5px;
     border-radius: 5px;
     font-weight: 600;
+    -webkit-transition: 0.2s all linear;
     transition: 0.2s all linear;
 }
 
@@ -194,6 +195,8 @@ section {
 }
 
 .find-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 1rem 0;
     padding: 1rem 0;
@@ -236,6 +239,7 @@ section {
 .about-box {}
 
 .about-card {
+    -webkit-transition: 0.3s all linear;
     transition: 0.3s all linear;
 }
 
@@ -275,6 +279,7 @@ section {
 .about-card-content a {
     color: #f1c40f;
     text-decoration: none;
+    -webkit-transition: 0.5s all linear;
     transition: 0.5s all linear;
 }
 
@@ -288,7 +293,7 @@ section {
     padding: 8rem 0;
     background: #f6fdff;
 }
- 
+
 .services-title {}
 
 .services-title h5 {}
@@ -297,24 +302,28 @@ section {
 
 .services-box {}
 
-.services-card {cursor: pointer;}
+.services-card {
+    cursor: pointer;
+}
 
-.services-card:hover h4{
+.services-card:hover h4 {
     color: #f1c40f;
 }
+
 .services-card-icon {}
 
 .services-card-icon img {
     width: 75px;
     margin: 1.5rem 0;
 }
- 
+
 .services-card-title {}
 
 .services-card-title h4 {
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 1.2rem;
+    -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
 
@@ -325,7 +334,7 @@ section {
     font-weight: 400;
     padding: 0;
     margin: 1.9rem 0;
-}  
+}
 
 .services-card-content ul li {}
 
@@ -344,10 +353,14 @@ section {
     border-radius: 30px;
     color: #ffff;
     position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
-.services-card-button a:hover i {display: inline-block;color: #fff;}
+.services-card-button a:hover i {
+    display: inline-block;
+    color: #fff;
+}
 
 .services-card-button a:hover {
     padding: 0.6rem 3.5rem;
@@ -363,15 +376,53 @@ section {
 
 .example-img {}
 
-.example-title {}
+.example-title {
+    padding: 0 3rem;
+}
 
-.example-title h3 {}
+.example-title h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
 
-.example-title p {}
+.example-title p {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
 
 .example-title a {}
 
-.example-title a {}
+.example-title a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -moz-transition: all .9s ease-in-out;
+    -o-transition: all .9s ease-in-out;
+    -webkit-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out;
+    padding: 1rem 3rem;
+    text-decoration: none;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+.btn-grad:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: #d7cea9;
+}
 
 /* our-work area start */
 

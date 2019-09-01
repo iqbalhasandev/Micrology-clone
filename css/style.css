@@ -625,10 +625,10 @@ section {
     color: #fff;
     border: 1px solid #fff;
     padding: 1rem 1.5rem;
-    
     transition: all 0.8s ease-in-out;
 }
-.hero-card a:hover{
+
+.hero-card a:hover {
     background: #f1c40f;
     border-color: transparent;
 }
@@ -718,8 +718,9 @@ section {
 }
 
 .testimonial-slider img {
-    width: 120px;
+    width: 120px !important;
     margin-right: 2rem;
+    display: inline-block !important;
 }
 
 .testimonial-slider h3 {
@@ -776,10 +777,6 @@ section {
 .client-logo img:hover {
     opacity: 1;
 }
-
-. {}
-
-. {}
 
 /* footer  area start */
 

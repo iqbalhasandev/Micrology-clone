@@ -1,0 +1,295 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    /* //CSS */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* //CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* //CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* //CSS */
+}
+
+@media (min-width: 750px) and (max-width: 1201px) {
+    /* example area start */
+    .example-img img {
+        width: 100%;
+    }
+    .example-img {
+        width: 100%;
+    }
+    .example-title {
+        text-align: center;
+    }
+    .example-title h3 {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .example-title p {
+        font-size: 0.8rem;
+    }
+    .example-title a {
+        /*! width: 100%; */
+        display: block;
+        padding: 0.5rem 2rem;
+    }
+    .btn-grad:hover {
+        padding: 0.5rem 2rem;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /*==========================================================
+                Global Css
+===========================================================*/
+    .sub-title {
+        font-size: 1.5rem;
+    }
+    .custom-btn-hover:hover {
+        padding: 0.5rem 2rem;
+    }
+    /*==========================================================
+                Custom Css
+===========================================================*/
+    /* header area start */
+    .content h3 {
+        font-size: 1rem;
+    }
+    .content h1 {
+        font-size: 2.5rem;
+    }
+    .content p {
+        font-size: 1rem;
+    }
+    /* find-project area Start */
+    .find-project {
+        padding: 8rem 0;
+    }
+    .find-project-title h4 {
+        line-height: 3;
+        font-size: 0.8rem;
+    }
+    .find-project-title h2 {
+        font-size: 1.2rem;
+    }
+    /* about area start */
+    .about-card {
+        margin-top: 2rem;
+    }
+    /* about area start */
+    .services-card {
+        margin-top: 3rem;
+    }
+    /* example area start */
+    .example-img img {
+        width: 100%;
+    }
+    .example-img {
+        width: 100%;
+    }
+    .example-title {
+        text-align: center;
+    }
+    .example-title h3 {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .example-title p {
+        font-size: 0.8rem;
+    }
+    .example-title a {
+        width: 100%;
+        display: block;
+        padding: 0.5rem 2rem;
+        margin: 0;
+    }
+    /* our-work area start */
+    .our-work-card-content a {
+        font-size: 1rem;
+    }
+    .our-work-card-content p {
+        font-size: 0.5rem;
+    }
+    /* banner area start */
+    .banner-title {
+        width: 100%;
+    }
+    /* big-banner area start */
+    .hero-card h1 {
+        font-size: 2rem;
+        padding: 0;
+        margin: 0;
+    }
+    .big-banner-title {
+        width: 100%;
+    }
+    .big-banner-box:hover i {
+        display: none;
+    }
+    /* client area start */
+    .client-logo {
+        text-align: center;
+    }
+    /* footer  area start */
+    .widget {
+        text-align: center;
+    }
+    .widget-title h4 {
+        text-align: center;
+    }
+    .footer-nav nav {
+        margin: 2rem;
+    }
+    .footer-nav nav ul li a {
+        line-height: 2;
+    }
+    .address-title {
+        margin-top: 2rem;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /*==========================================================
+                Global Css
+===========================================================*/
+    .sub-title {
+        font-size: 1.5rem;
+    }
+    .custom-btn-hover:hover {
+        padding: 0.5rem 2rem;
+    }
+    /*==========================================================
+                Custom Css
+===========================================================*/
+    /* header area start */
+    .content h3 {
+        font-size: 1rem;
+    }
+    .content h1 {
+        font-size: 2.5rem;
+    }
+    .content p {
+        font-size: 1rem;
+    }
+    /* find-project area Start */
+    .find-project {
+        padding: 8rem 0;
+    }
+    .find-project-title h4 {
+        line-height: 3;
+        font-size: 0.8rem;
+    }
+    .find-project-title h2 {
+        font-size: 1.2rem;
+    }
+    .about-card {
+        margin-top: 2rem;
+    }
+    .services-card {
+        margin-top: 3rem;
+    }
+    /* example area start */
+    .example-img img {
+        width: 100%;
+    }
+    .example-title {
+        text-align: center;
+    }
+    .example-title h3 {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .example-title p {
+        font-size: 0.8rem;
+    }
+    .example-title a {
+        /*! width: 100%; */
+        display: block;
+        padding: 0.5rem 2rem;
+    }
+    .btn-grad:hover {
+        padding: 0.5rem 2rem;
+    }
+    /* our-work area start */
+    .our-work-card-content a {
+        font-size: 1rem;
+    }
+    .our-work-card-content p {
+        font-size: 0.5rem;
+    }
+    /* banner area start */
+    .banner-title {
+        width: 100%;
+    }
+    #hero-card {
+        margin-top: 1rem;
+        /*! width: 100%; */
+    }
+    .hero-card {
+        width: 100%;
+        padding: 5rem 0.5rem;
+    }
+    .hero-card h1 {
+        font-size: 2rem;
+        padding: 0;
+        margin: 0;
+    }
+    .big-banner-title {
+        width: 100%;
+    }
+    .big-banner-box:hover i {
+        display: none;
+    }
+    .client-logo {
+        text-align: center;
+    }
+    .widget {
+        text-align: center;
+    }
+    .widget-title h4 {
+        text-align: center;
+    }
+    .footer-nav nav {
+        margin: 2rem;
+    }
+    .footer-nav nav ul li a {
+        line-height: 2;
+    }
+    .address-title {
+        margin-top: 2rem;
+    }
+}

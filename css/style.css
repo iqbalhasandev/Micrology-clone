@@ -84,6 +84,34 @@ section {
     outline: none;
 }
 
+.custom-btn {
+    padding: 0.6rem 3rem;
+    border-radius: 30px;
+    color: #ffff;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-btn i {
+    position: absolute;
+    right: 12%;
+    top: 36%;
+    display: none;
+    transition: all 0.6s ease-in-out;
+}
+
+.custom-btn-hover:hover {
+    padding-right: 3.5rem;
+    color: #fff;
+    background: #f1c40f;
+}
+
+.custom-btn:hover i {
+    display: inline-block;
+    color: #fff;
+}
+
 /*==========================================================
                 Custom Css
 ===========================================================*/
@@ -108,6 +136,11 @@ section {
     bottom: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
 }
 
 .hero-header {}
@@ -384,32 +417,10 @@ section {
 
 .services-card-button {}
 
-.services-card-button a i {
-    position: absolute;
-    right: 20px;
-    top: 14px;
-    display: none;
-}
+.services-card-button a i {}
 
 .services-card-button a {
     background: #090c1e;
-    padding: 0.6rem 3rem;
-    border-radius: 30px;
-    color: #ffff;
-    position: relative;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
-.services-card-button a:hover i {
-    display: inline-block;
-    color: #fff;
-}
-
-.services-card-button a:hover {
-    padding: 0.6rem 3.5rem;
-    color: #fff;
-    background: #f1c40f;
 }
 
 /* example area start */
@@ -435,7 +446,9 @@ section {
     font-weight: 100;
 }
 
-.example-title a {}
+.example-title a {
+    background: #34495e;
+}
 
 .example-title a {
     font-size: 1rem;
@@ -467,7 +480,10 @@ section {
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     color: #d7cea9;
+    padding: 1rem 4rem;
 }
+
+.example-02 {}
 
 /* our-work area start */
 
@@ -496,9 +512,17 @@ section {
     padding: 2rem;
 }
 
-.our-work-card-content a {}
+.our-work-card-content a {
+    text-decoration: none;
+    color: #2a2a2a;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
 
-.our-work-card-content a h3 {}
+.our-work-card-content a:hover {
+    color: #f1c40f;
+}
 
 .our-work-card-content p {}
 
@@ -601,6 +625,12 @@ section {
     color: #fff;
     border: 1px solid #fff;
     padding: 1rem 1.5rem;
+    
+    transition: all 0.8s ease-in-out;
+}
+.hero-card a:hover{
+    background: #f1c40f;
+    border-color: transparent;
 }
 
 .big-banner-title {
@@ -618,6 +648,15 @@ section {
 .big-banner-title a {
     color: #fff;
     text-decoration: none;
+    transition: 0.5s all ease-out;
+    -webkit-transition: 0.5s all ease-out;
+    -moz-transition: 0.5s all ease-out;
+    -ms-transition: 0.5s all ease-out;
+    -o-transition: 0.5s all ease-out;
+}
+
+.big-banner-title a:hover {
+    color: #f1c40f;
 }
 
 .big-banner-title a i {
@@ -642,6 +681,19 @@ section {
     top: 45%;
     left: 45%;
     color: #fff;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+.big-banner-box:hover i {
+    display: none;
+}
+
+.big-banner-box:hover .overlay {
+    display: none;
 }
 
 .big-banner-box img {
@@ -777,7 +829,9 @@ section {
     color: #878181;
 }
 
-.footer-nav nav ul li a:hover {color: #f1c40f;}
+.footer-nav nav ul li a:hover {
+    color: #f1c40f;
+}
 
 .widget-address {}
 

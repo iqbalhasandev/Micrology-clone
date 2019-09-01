@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     $("#our-work-slider").owlCarousel({
         margin: 10,
@@ -35,4 +34,3 @@ $(document).ready(function () {
         items: 1,
     });
 });
-

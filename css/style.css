@@ -15,6 +15,7 @@ html, body {
     background-color: #fff;
     color: rgb(0, 0, 0);
     font-family: 'Poppins', sans-serif;
+    /* scroll-behavior: smooth; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -98,7 +99,11 @@ section {
     right: 12%;
     top: 36%;
     display: none;
+    -webkit-transition: all 0.6s ease-in-out;
     transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
 }
 
 .custom-btn-hover:hover {
@@ -176,6 +181,9 @@ section {
     font-weight: 600;
     -webkit-transition: 0.2s all linear;
     transition: 0.2s all linear;
+    -moz-transition: 0.2s all linear;
+    -ms-transition: 0.2s all linear;
+    -o-transition: 0.2s all linear;
 }
 
 .content:hover h3 span {
@@ -202,6 +210,9 @@ section {
     text-decoration: none;
     -webkit-transition: 0.5s all cubic-bezier(.25, .46, .45, .94);
     transition: 0.5s all cubic-bezier(.25, .46, .45, .94);
+    -moz-transition: 0.5s all cubic-bezier(.25, .46, .45, .94);
+    -ms-transition: 0.5s all cubic-bezier(.25, .46, .45, .94);
+    -o-transition: 0.5s all cubic-bezier(.25, .46, .45, .94);
 }
 
 .content-btn a i {
@@ -299,7 +310,7 @@ section {
 
 /* about area start */
 
-.about {
+#about {
     background: #ecf0f8;
 }
 
@@ -460,8 +471,6 @@ section {
     border: none;
     background-size: 300% 100%;
     border-radius: 50px;
-    -moz-transition: all .9s ease-in-out;
-    -o-transition: all .9s ease-in-out;
     -webkit-transition: all .9s ease-in-out;
     transition: all .9s ease-in-out;
     padding: 1rem 3rem;
@@ -469,14 +478,15 @@ section {
 }
 
 .btn-grad {
+    background-image: -webkit-gradient(linear, left top, right top, from(#667eea), color-stop(#764ba2), color-stop(#6B8DD6), to(#8E37D7));
     background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    -webkit-box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
     box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
 }
 
 .btn-grad:hover {
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     color: #d7cea9;
@@ -517,6 +527,7 @@ section {
     color: #2a2a2a;
     font-size: 1.3rem;
     font-weight: 600;
+    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
@@ -606,7 +617,9 @@ section {
 
 .hero-card {
     background: #c0392b;
+    background: -webkit-rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(#f32e59), to(#6338dd)) repeat scroll 0 0;
     background: -webkit-rgba(0, 0, 0, 0) linear-gradient(to right, #f32e59, #6338dd) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(#f32e59), to(#6338dd)) repeat scroll 0 0;
     background: rgba(0, 0, 0, 0) linear-gradient(to right, #f32e59, #6338dd) repeat scroll 0 0;
     border-radius: 6px;
     padding: 6rem;
@@ -625,6 +638,7 @@ section {
     color: #fff;
     border: 1px solid #fff;
     padding: 1rem 1.5rem;
+    -webkit-transition: all 0.8s ease-in-out;
     transition: all 0.8s ease-in-out;
 }
 
@@ -661,7 +675,7 @@ section {
 
 .big-banner-title a i {
     background: #642B73;
-    background: -webkit-linear-gradient(to right, #C6426E, #B116DA);
+    background: -webkit-gradient(linear, left top, right top, from(#C6426E), to(#B116DA));
     background: linear-gradient(to right, #C6426E, #B116DA);
     padding: 1rem;
     border-radius: 50%;
@@ -770,6 +784,7 @@ section {
 
 .client-logo img {
     opacity: 0.4;
+    -webkit-transition: all 0.s ease-out;
     transition: all 0.s ease-out;
     cursor: pointer;
 }
@@ -856,6 +871,7 @@ section {
     background: #34495e;
     margin: 0.5rem;
     border-radius: 50%;
+    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
@@ -878,6 +894,7 @@ section {
     text-decoration: none;
     font-style: italic;
     color: #34495e;
+    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 

@@ -26,7 +26,7 @@ p {
     font-size: 13px;
     color: #999999;
 }
- 
+
 section {
     /* background: #fff; */
     overflow: hidden;
@@ -709,18 +709,26 @@ section {
 
 /* client area start */
 
-.client {border-top: 2px solid #f6f6f6;}
+.client {
+    border-top: 2px solid #f6f6f6;
+}
 
 .client-logo {}
 
-.client-logo img {opacity: 0.2;transition: all 0.5s ease-out;cursor: pointer;}
+.client-logo img {
+    opacity: 0.4;
+    transition: all 0.s ease-out;
+    cursor: pointer;
+}
 
-.client-logo img:hover {opacity: 1;}
+.client-logo img:hover {
+    opacity: 1;
+}
 
 . {}
 
 . {}
-  
+
 /* footer  area start */
 
 .footer {
@@ -755,7 +763,7 @@ section {
 }
 
 .footer-nav nav ul li a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 5;
     padding: 0.5rem;
     color: #fff;
@@ -769,6 +777,8 @@ section {
     color: #878181;
 }
 
+.footer-nav nav ul li a:hover {color: #f1c40f;}
+
 .widget-address {}
 
 .address-title {}
@@ -779,14 +789,47 @@ section {
 
 .address-dec {}
 
-.footer-social {/*! display: block; *//*! position: relative; */margin: 4rem;}
+.footer-social {
+    /*! display: block; */
+    /*! position: relative; */
+    margin: 4rem 0;
+    border-top: 1px solid #414141;
+    padding-top: 4rem;
+}
 
-.footer-social a {padding: 1rem;text-decoration: none;color: #fff;/*! width: 50px; */background: #34495e;margin: 0.5rem;border-radius: 50%;}
+.footer-social a {
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+    /*! width: 50px; */
+    background: #34495e;
+    margin: 0.5rem;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
 
-.footer-social a i {width: 20px;}
- 
+.footer-social a i {
+    width: 20px;
+}
+
+.footer-social a:hover {
+    color: #f1c40f;
+    background: #fff;
+}
+
 .footer-cradit {}
 
-.footer-cradit h4 {font-size: 0.8rem;}
+.footer-cradit h4 {
+    font-size: 0.8rem;
+}
 
-.footer-cradit h4 a {text-decoration: none;font-style: italic;color: #34495e;}
+.footer-cradit h4 a {
+    text-decoration: none;
+    font-style: italic;
+    color: #34495e;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-cradit h4 a:hover {
+    color: #f1c40f;
+}

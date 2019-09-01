@@ -24,8 +24,9 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
+    color: #999999;
 }
-
+ 
 section {
     /* background: #fff; */
     overflow: hidden;
@@ -38,6 +39,7 @@ section {
     border-bottom: 3px solid #ebbc00;
     display: inline;
     padding: 0.18rem;
+    font-weight: bold;
 }
 
 .sub-title {
@@ -149,7 +151,7 @@ section {
 
 .content h1 {
     font-size: 4rem;
-    font-weight: 600;
+    font-weight: bold;
     padding: 0.3rem 0 0;
 }
 
@@ -224,6 +226,8 @@ section {
     border-bottom: 3px solid #e74c3c;
     display: inline;
     padding: 0.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .find-project-title h2 {
@@ -257,6 +261,7 @@ section {
 .find-card-body p {
     font-size: 1rem;
     color: #989d9d;
+    font-weight: 300;
 }
 
 /* about area start */
@@ -421,7 +426,8 @@ section {
 
 .example-title h3 {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: bold;
+    margin-bottom: 2rem;
 }
 
 .example-title p {
@@ -557,15 +563,165 @@ section {
 
 .play-btn h6 {}
 
-. {}
+/* big-banner area start */
+
+.big-banner {
+    background: url(../img/big-banner-bg.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 20rem;
+}
+
+#hero-card {
+    position: relative;
+    margin-top: -220px;
+    z-index: 5;
+}
+
+.hero-card {
+    background: #c0392b;
+    background: -webkit-rgba(0, 0, 0, 0) linear-gradient(to right, #f32e59, #6338dd) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #f32e59, #6338dd) repeat scroll 0 0;
+    border-radius: 6px;
+    padding: 6rem;
+    color: #fff;
+}
+
+.hero-card h1 {
+    font-weight: 600;
+    padding: 0;
+    margin: 0 0 1.1rem;
+}
+
+.hero-card p {}
+
+.hero-card a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 1rem 1.5rem;
+}
+
+.big-banner-title {
+    position: relative;
+    color: #fff;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.big-banner-title h2 {}
+
+.big-banner-title p {}
+
+.big-banner-title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.big-banner-title a i {
+    background: #642B73;
+    background: -webkit-linear-gradient(to right, #C6426E, #B116DA);
+    background: linear-gradient(to right, #C6426E, #B116DA);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.big-banner-title a h3 {}
+
+.big-banner-content {}
+
+.big-banner-box {
+    position: relative;
+    cursor: pointer;
+}
+
+.big-banner-box i {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: #fff;
+}
+
+.big-banner-box img {
+    border-radius: 10px;
+}
+
+/* testimonial area start */
+
+.testimonial {}
+
+.testimonial-title {}
+
+.testimonial-title h5 {}
+
+.testimonial-title h3 {
+    padding: 20px;
+}
+
+.testimonial-slider {
+    padding: 2rem;
+    border: 2px solid aliceblue;
+}
+
+.testimonial-slider img {
+    width: 120px;
+    margin-right: 2rem;
+}
+
+.testimonial-slider h3 {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.testimonial-slider a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 12px;
+}
+
+.testimonial-slider i {
+    color: #f1c40f;
+}
+
+.blockquote {
+    display: block;
+    color: #999999;
+    font-weight: 400;
+}
+
+.blockquote::before {
+    content: "\f10d";
+    margin-right: 10px;
+    color: #dadee6;
+    display: inline-block;
+    font-family: 'FontAwesome';
+}
+
+.blockquote::after {
+    content: "\f10e";
+    margin-right: 10px;
+    color: #dadee6;
+    display: inline-block;
+    font-family: 'FontAwesome';
+}
+
+/* client area start */
+
+.client {border-top: 2px solid #f6f6f6;}
+
+.client-logo {}
+
+.client-logo img {opacity: 0.2;transition: all 0.5s ease-out;cursor: pointer;}
+
+.client-logo img:hover {opacity: 1;}
 
 . {}
 
 . {}
-
-. {}
-
-. {}
+  
+/* footer  area start */
 
 .footer {
     background: #090c1e;
@@ -623,14 +779,14 @@ section {
 
 .address-dec {}
 
-.footer-social {}
+.footer-social {/*! display: block; *//*! position: relative; */margin: 4rem;}
 
-.footer-social a {}
+.footer-social a {padding: 1rem;text-decoration: none;color: #fff;/*! width: 50px; */background: #34495e;margin: 0.5rem;border-radius: 50%;}
 
-.footer-social a i {}
-
+.footer-social a i {width: 20px;}
+ 
 .footer-cradit {}
 
-.footer-cradit h4 {}
+.footer-cradit h4 {font-size: 0.8rem;}
 
-.footer-cradit h4 a {}
+.footer-cradit h4 a {text-decoration: none;font-style: italic;color: #34495e;}

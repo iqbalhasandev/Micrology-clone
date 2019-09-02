@@ -33,4 +33,5 @@ $(document).ready(function () {
         dots: false,
         items: 1,
     });
+
 });

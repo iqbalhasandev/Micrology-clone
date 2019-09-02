@@ -584,8 +584,8 @@ section {
 .play-btn {
     color: #fff;
     text-decoration: none;
-}
-
+} 
+.play-btn:hover{color: #ABACAE;text-decoration: none;}
 .play-btn i {
     background: #fff;
     padding: 1rem;
